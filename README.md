@@ -8,7 +8,7 @@ Basically trying to see if we can decouple learning semantics from destroying in
 
 This should mostly be ready for scale up to a reasonable point, got some polishing to do to make big boi ready but it supports jagged / dynamic sized inputs, flattened block sparse etc etc. Lots of parts to ablate etc.
 
-The Gist
+## The Gist
 
 Backbone: Stochastic Masked Normalizing Flow (preserves exact density, makes the flow task more perceptual).
 
@@ -25,14 +25,14 @@ Status: Kinda works is the best kind of works.
 Citation
 
 If you use this, or just think it's neat:
-
+```
 @misc{hibble2025flowjepa,
   title={Flow Jepa: Experiments in Bijective Isometry},
   author={Adam Hibble},
   year={2025},
   note={Draft v0.0.1}
 }
-
+```
 
 Contact
 
